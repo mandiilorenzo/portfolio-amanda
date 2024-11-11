@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portifolio Amanda Monteiro Di Lorenzo">
+    <title>Amanda Monteiro Di Lorenzo - Desenvolvedora Frontend</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/globals.css">
+    <link rel="stylesheet" href="./src/css/sections/header.css">
+    <link rel="stylesheet" href="./src/css/sections/home.css">
+    <link rel="stylesheet" href="./src/css/sections/about.css">
+    <link rel="stylesheet" href="./src/css/sections/skills.css">
+    <link rel="stylesheet" href="./src/css/sections/projects.css">
+    <link rel="stylesheet" href="./src/css/sections/footer.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="stylesheet" href="./src/css/all.min.css">
+    <link rel="stylesheet" href="./src/webfonts/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">mandilorenzo</a>
+            </div>
+
+            <nav>
+                <input id="menu-hamburguer" type="checkbox" />
+
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Meus projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container-home">
+            <div class="img-perfil">
+                <img class="picture-perfil" src="./src/images/image0-removebg-preview.png" alt="foto perfil Amanda">
+            </div>
+
+            <div class="info-principal">
+                <h1>Amanda Monteiro Di Lorenzo</h1>
+                <p>Desenvolvedora Frontend</p>
+            </div>
+
+            <div class="redes-sociais">
+                <a target="_blank" href="https://www.linkedin.com/in/mandilorenzo/" class="outer-shadow"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://wa.me/34992418252" class="outer-shadow"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a target="_blank" href="https://github.com/mandiilorenzo" class="outer-shadow"><i
+                        class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.instagram.com/mandilorenzo" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="sobre-mim">
+        <div class="container-about">
+            <h2>SOBRE MIM</h2>
+            <p>
+                Olá ! Meu nome é Amanda Monteiro Di Lorenzo, tenho 26 anos, sou mineira, e atualmente, uma
+                <span>desenvolvedora frontend</span> em formação. Estou graduando em Análise e Desenvolvimento de
+                Sistemas e sou aluna Full Stack do Curso DevQuest e da EBAC.
+                Sou apaixonada por <span>tecnologia, criatividade e inovação !</span> Estou sempre em busca de melhorar
+                as minhas habilidades e adquirir novos conhecimentos com estudo ativo, além de estar sempre buscando
+                experiências com projetos que me desafiem e trocas positivas nas comunidades de desenvolvedores.
+            </p>
+
+            <div class="btn">
+                <a target="_blank" href="" class="btn-curriculo">Baixar currículo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="habilidades">
+        <div class="container-skills-principal">
+            <h2>HABILIDADES</h2>
+
+            <div class="container-skills-info">
+                <div class="info-skills info-html">
+                    <div class="logo-skill">
+                        <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="info-css">
+                    <div class="logo-skill">
+                        <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="info-javascript">
+                    <div class="logo-skill">
+                        <i class="devicon devicon-javascript-plain" id="javascript"></i>
+                    </div>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+
+                <div class="info-git">
+                    <div class="logo-skill">
+                        <i class="devicon devicon-git-plain" id="git"></i>
+                    </div>
+                    <h3>GIT</h3>
+                </div>
+
+                <div class="info-github">
+                    <div class="logo-skill">
+                        <i class="devicon devicon-github-original" id="github"></i>
+                    </div>
+                    <h3>GITHUB</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projetos">
+        <div class="container-projects">
+            <h2>MEUS PROJETOS</h2>
+
+            <div class="projects-list">
+                <div class="project">
+                    <a href="" target="_blank">
+                        <img src="./src/images/portifolio-amanda.png" alt="gif do projeto Portifólio Amanda">
+                        <h3>Portifólio Amanda Di Lorenzo</h3>
+
+                        <div class="info-project">
+                            <p>Meu primeiro projeto pessoal que desenvolvi do zero, utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://mandiilorenzo.github.io/huddle-LP/" target="_blank">
+                        <img src="./src/images/huddle-lp2.gif" alt="gif do projeto Huddle Landing Page">
+                        <h3>Huddle Landing Page</h3>
+
+                        <div class="info-project">
+                            <p>Projeto desafio do Frontend mentor que realizei para testar meus conhecimentos de
+                                codificação, utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://mandiilorenzo.github.io/profile-card/" target="_blank">
+                        <img src="./src/images/profile-card.png" alt="imagem do projeto Profile card">
+                        <h3>Profile card</h3>
+
+                        <div class="info-project">
+                            <p>Projeto desafio do Frontend mentor que realizei para testar meus conhecimentos de
+                                codificação, utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://mandiilorenzo.github.io/projeto-hod-szpc/" target="_blank">
+                        <img src="./src/images/hofd.gif" alt="gif do projeto House of the Dragon">
+                        <h3>House of the Dragon</h3>
+
+                        <div class="info-project">
+                            <p>Primeiro projeto utilizando conceitos do JavaScript, além de HTML e CSS, monitorados
+                                pelos professores do curso DevQuest.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="btn">
+                <a href="https://github.com/mandiilorenzo" target="_blank" class="btn-projects">Ver mais projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contato">
+        <div class="container-footer">
+            <h2>Me envie uma mensagem !</h2>
+
+            <div class="redes-sociais">
+                <a target="_blank" href="https://www.linkedin.com/in/mandilorenzo/" class="outer-shadow"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://wa.me/34992418252" class="outer-shadow"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a target="_blank" href="https://github.com/mandiilorenzo" class="outer-shadow"><i
+                        class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.instagram.com/mandilorenzo" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <h3>Developed by mandilorenzo</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

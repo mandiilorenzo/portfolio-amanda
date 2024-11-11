@@ -1,0 +1,37 @@
+html {
+    font-size: 62.5%;
+    color: var(--white-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--primary-font);
+}
+
+section {
+    padding: 40px 0;
+}
+
+span {
+    color: var(--neon-color);
+}
+
+.redes-sociais {
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+.redes-sociais a i {
+    color: var(--white-color);
+    padding-left: 5px;
+}
+
+.redes-sociais a i:hover {
+    color: var(--neon-color);
+}
+
+.btn {
+    padding-top: 10px;
+}
+

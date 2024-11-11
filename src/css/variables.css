@@ -1,0 +1,16 @@
+:root {
+    --primary-font: "Space Grotesk", sans serif;
+    --secondary-font: "Open Sans", sans serif;
+}
+
+:root {
+    --bg-color: #040203;
+    --white-color: #ffffff;
+    --primary-color: #D4A5FF;
+    --secondary-color: #A7FF83;
+    --neon-color: #B45EFF;
+}
+
+:root {
+    --mobile-padding: 30px;
+}

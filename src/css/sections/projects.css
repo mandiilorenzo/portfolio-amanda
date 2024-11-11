@@ -1,0 +1,108 @@
+.projects {
+    font-family: var(--secondary-font);
+}
+
+.projects .container-projects {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projects .container-projects .project {
+    transition: all 0.3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    position: relative;
+}
+
+.projects .container-projects .project:hover,
+.projects .container-projects .project:hover .info-project {
+    opacity: 0.9;
+}
+
+.project .info-project {
+    padding: 20px 20px;    
+    color: var(--white-color);
+    background-color: var(--bg-color);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;    
+    transition: all .3s ease;
+}
+
+.project .info-project p {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+
+.projects .container-projects h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: var(--neon-color);
+}
+
+.projects .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 40px;
+}
+
+.projects-list .project {
+    box-shadow: 0 0 5px #D4A5FF,
+        0 0 10px #D4A5FF,
+        0 0 20px #B45EFF,
+        0 0 30px #B45EFF;
+}
+
+.projects .projects-list img {
+    max-width: 450px;
+    height: 100%;
+}
+
+.projects .projects-list h3 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 400; 
+    color: var(--white-color); 
+    position: absolute;      
+    opacity: 1;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: 0;
+}
+
+.container-projects .btn .btn-projects {
+    font-size: 2rem;
+    color: var(--white-color);
+    background-color: var(--neon-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.container-projects .btn .btn-projects:hover {
+    box-shadow: 
+    0 0 5px #D4A5FF,
+    0 0 10px #D4A5FF,
+    0 0 20px #B45EFF,
+    0 0 30px #B45EFF;
+    transition: 0.3s ease-in-out;
+    color: var(--white-color);
+}
+
