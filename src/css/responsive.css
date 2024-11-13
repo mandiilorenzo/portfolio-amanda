@@ -45,23 +45,19 @@
     }
 }
 
-@media(max-width: 900px) {
-    .projects {
-        padding: var(--mobile-padding);
-    }
-
-    .projects .projects-list {
-        justify-content: center;
-        padding-bottom: 20px;
-    }
-
-    .projects .projects-list img {
-        max-width: 350px;
+@media(min-width: 1559px) {
+    .home .container-home {
+        height: 83vh;
     }
 }
 
 @media(max-width: 900px) {
-    .projects-list {
-        padding: var(--mobile-padding);
+    .projects .projects-list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects .projects-list img {
+        max-width: 350px;
     }
 }

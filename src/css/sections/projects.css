@@ -10,6 +10,7 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .projects .container-projects .project {

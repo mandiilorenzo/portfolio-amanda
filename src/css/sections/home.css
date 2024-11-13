@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    padding-top: 25px;
     gap: 10px;
 }
 
