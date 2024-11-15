@@ -1,6 +1,6 @@
 .header {
     padding: 40px 10px;
-    background: url(../images/b18d5124d08c77a110323493464ff7ae.gif);
+    background: url(../../images/b18d5124d08c77a110323493464ff7ae.gif);
     font-family: var(--primary-font);
 }
 
@@ -23,7 +23,7 @@
 }
 
 .container .logo a:after {
-    content: url(../images/otimizacao-de-codigo.png);
+    content: url(../../images/otimizacao-de-codigo.png);
     position: absolute;
     height: 100%;
     right: -30px;

@@ -37,7 +37,7 @@
 }
 
 .about .container-about .btn .btn-curriculo:before {
-    content: url(../images/direita.png);
+    content: url(../../images/direita.png);
     position: absolute;
     left: -45px;
     animation: downarrow 0.8s infinite alternate ease-in-out;
