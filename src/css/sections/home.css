@@ -16,7 +16,7 @@
 }
 
 .home .container-home:after {
-    content: url(/src/images/seta-para-baixo\ \(2\).png);
+    content: url(../images/seta-para-baixo\ \(2\).png);
     position: absolute;
     bottom: -50px;
     animation: downarrow 0.8s infinite alternate ease-in-out;
