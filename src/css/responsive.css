@@ -38,6 +38,11 @@
         padding: var(--mobile-padding);
     }
 
+    .home .container-home .img-perfil .picture-perfil {
+        max-width: 210px;
+        height: 200px;
+    }
+
     .home .container-home .info-principal {
         flex: 0 0 1000%;
         max-width: 100%;
@@ -46,8 +51,12 @@
 }
 
 @media(min-width: 1559px) {
-    .home .container-home {
-        height: 83vh;
+    .home .container-home{
+        height: 70vh;
+    }
+    .home .container-home .img-perfil .picture-perfil {
+        max-width: 320px;
+        height: 310px;
     }
 }
 

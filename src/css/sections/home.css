@@ -29,6 +29,7 @@
 
 .home .container-home .img-perfil .picture-perfil {
     max-width: 250px;
+    height: 240px;
     border-radius: 50%;
     padding: 1px;
     box-shadow: 0 0 5px #D4A5FF,
