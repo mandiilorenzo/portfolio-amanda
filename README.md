@@ -4,7 +4,7 @@ Este é o meu primeiro projeto pessoal desenvolvido do zero por mim, me desafian
 ## Índice
 
 - [Visão geral](#visãogeral)
-  - [O desafio](#o-desafio)
+  - [O projeto](#o-projeto)
   - [Link](#link)
 - [Meu processo](#meu-processo)
   - [Tecnologias utilizadas](#built-with)
@@ -14,10 +14,10 @@ Este é o meu primeiro projeto pessoal desenvolvido do zero por mim, me desafian
 
 ## Visão geral
 
-### O desafio
-Consiste em realizar um layout (tanto para desktop quanto para mobile), de uma Landing Page da Huddle, que siga corretamente o design proposto e os estados de focos para elementos interativos.
+### O projeto
+Consiste em realizar um portfólio profissional único, em busca da criatividade visual e da boa prática de codificação, trazendo responsividade nas diferentes telas. 
 
-<img src="./src/images/huddle-lp2.gif">
+<img src="./src/images/protfolio-amanda.gif">
 
 ### Link
 - URL do site ativo: 
@@ -29,15 +29,15 @@ Consiste em realizar um layout (tanto para desktop quanto para mobile), de uma L
 - CSS
 
 ### Aprendizados
- - Maior habilidade no uso de variáveis para um código mais limpo.
- - Melhoria na prática de uso do flexbox.
- - Prática na utilização do Grid.
+ - Prática em inicar um projeto sozinha, organizando em pastas, em um HTML semântico e um CSS bem estruturado.
+ - Melhoria na criatividade visual de uma página.
 
  ### Recursos úteis
  - Google fonts: para estilizar as fontes, conforme o desafio pediu.
  - Responsive view: maior visualização do layout em mobile, para ajustar corretamente, caso fosse necessário, a fim de trazer responsividade ao meu projeto em telas menores.
  - Perfect pixel: para auxiliar nos valores das propriedades de height, width, padding e margin, e chegar o mais próximo possível, do layout do desafio.
  - Font awesome: para utilizar os ícones pedidos pelo desafio.
+ - Flaticon: para o uso de ícones diferentes para agregar na beleza do projeto.
 
  ## Autora
 
