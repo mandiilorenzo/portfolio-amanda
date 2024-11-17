@@ -20,7 +20,7 @@ Consiste em realizar um portfólio profissional único, em busca da criatividade
 <img src="./src/images/protfolio-amanda.gif">
 
 ### Link
-- URL do site ativo: 
+- URL do site ativo: https://mandiilorenzo.github.io/portfolio-amanda/
 
 ## Meu processo
 
@@ -33,11 +33,10 @@ Consiste em realizar um portfólio profissional único, em busca da criatividade
  - Melhoria na criatividade visual de uma página.
 
  ### Recursos úteis
- - Google fonts: para estilizar as fontes, conforme o desafio pediu.
- - Responsive view: maior visualização do layout em mobile, para ajustar corretamente, caso fosse necessário, a fim de trazer responsividade ao meu projeto em telas menores.
- - Perfect pixel: para auxiliar nos valores das propriedades de height, width, padding e margin, e chegar o mais próximo possível, do layout do desafio.
- - Font awesome: para utilizar os ícones pedidos pelo desafio.
- - Flaticon: para o uso de ícones diferentes para agregar na beleza do projeto.
+ - Google fonts: para estilizar as fontes, a fim de criar um portfolio profissional e com um visual mais tecnológico.
+ - Responsive view: maior visualização do layout tanto em mobile quanto em telas maiores, para ajustar corretamente, caso fosse necessário, a fim de trazer responsividade ao meu projeto.
+ - Font awesome: para utilizar os ícones de redes sociais e habilidades.
+ - Flaticon: para o uso de ícones diferentes para agregar na beleza e criatividade do projeto.
 
  ## Autora
 
