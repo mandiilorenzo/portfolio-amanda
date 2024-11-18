@@ -68,7 +68,5 @@
 
     .projects .projects-list img {
         max-width: 250px;
-        object-fit: cover;
-        height: auto;
     }
 }
