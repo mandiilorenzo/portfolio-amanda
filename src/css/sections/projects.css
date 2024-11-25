@@ -72,6 +72,7 @@
 .projects .projects-list img {
     max-width: 450px;
     height: auto;
+    object-fit: cover;
 }
 
 .projects .projects-list h3 {

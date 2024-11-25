@@ -9,7 +9,7 @@
         display: block;
     }
 
-    .header nav input:checked ~ul {
+    .header nav input:checked~ul {
         display: block;
     }
 
@@ -51,9 +51,10 @@
 }
 
 @media(min-width: 1559px) {
-    .home .container-home{
+    .home .container-home {
         height: 70vh;
     }
+
     .home .container-home .img-perfil .picture-perfil {
         max-width: 320px;
         height: 310px;
@@ -72,6 +73,12 @@
 }
 
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .projects .projects-list {
+        object-fit: cover;
+    }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
     .projects .projects-list {
         object-fit: cover;
     }
