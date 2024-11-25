@@ -70,3 +70,9 @@
         max-width: 250px;
     }
 }
+
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .projects .projects-list {
+        object-fit: cover;
+    }
+}

@@ -29,7 +29,7 @@ Consiste em realizar um portfólio profissional único, em busca da criatividade
 - CSS
 
 ### Aprendizados
- - Prática em inicar um projeto sozinha, organizando em pastas, em um HTML semântico e um CSS bem estruturado.
+ - Prática em iniciar um projeto sozinha, organizando em pastas, em um HTML semântico e um CSS bem estruturado.
  - Melhoria na criatividade visual de uma página.
 
  ### Recursos úteis
