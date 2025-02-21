@@ -34,6 +34,8 @@
 .skills .container-skills-info .info-html,
 .skills .container-skills-info .info-css,
 .skills .container-skills-info .info-javascript,
+.skills .container-skills-info .info-react,
+.skills .container-skills-info .info-typescript,
 .skills .container-skills-info .info-git,
 .skills .container-skills-info .info-github {
     transition: all 0.3s ease;
@@ -45,6 +47,8 @@
 .skills .container-skills-info .info-html:hover,
 .skills .container-skills-info .info-css:hover,
 .skills .container-skills-info .info-javascript:hover,
+.skills .container-skills-info .info-react:hover,
+.skills .container-skills-info .info-typescript:hover,
 .skills .container-skills-info .info-git:hover,
 .skills .container-skills-info .info-github:hover {
     color: var(--neon-color);
